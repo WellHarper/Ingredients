@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "name": "ingredients",
+  "version": "1.0.0",
+  "description": "projeto de final de módulo 4 do curso da resilia. Criar uma api",
+  "main": "server.js",
+  "author": "Well",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
