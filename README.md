@@ -33,7 +33,7 @@ A Coluna UNIDADE armazena a unidade do que será atrelada ao produto. Ex: Saco, 
 
 A Coluna OBSERVAÇÃO armazena alguma observação sobre o produto. <br />
 
-A Coluna ATIVOA armazena TRUE ou FALSE. <br />
+A Coluna ATIVO armazena TRUE ou FALSE. <br />
 
 
 O Banco de dados utilizado foi o SQLITE.
