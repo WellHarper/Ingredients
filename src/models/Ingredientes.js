@@ -11,7 +11,25 @@ class Ingredientes {
         this.observacao = observacao
         this.ativo = 1
     }
+    
 
+    isNumber(el) {
+        if(typeof el == 'number') {
+            return el
+        }
+        else {
+            throw new Error("Este elemento não é um número")
+        }
+    }
+
+    isBool(el) {
+        if(typeof el == 'boolean') {
+            return el
+        }
+        else {
+            throw new Error("Este elemento não é booleano")
+        }
+    }
 
 
 }
