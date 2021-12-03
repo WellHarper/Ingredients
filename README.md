@@ -42,17 +42,19 @@ O Banco de dados utilizado foi o SQLITE.
 
 Essas são as rotas criadas:
 
-GET: http://localhost:3005/ingredientes/ -> Rota usada para pegar todos os registros
+GET: http://localhost:3005/ingredientes/ -> Rota usada para pegar todos os registros.
 <br />
-GET: http://localhost:3005/ingredientes/:name -> Rota usada para pegar registro especifico pelo nome
+GET: http://localhost:3005/ingredientes/:name -> Rota usada para pegar registro especifico pelo nome.
 <br />
-POST: http://localhost:3005/ingredientes/ -> Rota para criação do Ingrediente no banco. 
+POST: http://localhost:3005/ingredientes/ -> Rota para criação do Ingrediente no banco. Para criar um ingrediente é preciso passar alguns parametros no body: nome, preco, quantidade, unidade e observacao. Nos campos nome, unidade e observação é preciso que o valor passado seja um texto, já para os campos unidade e quantidade o valor precisa ser um número
 <br/>
 PATCH: http://localhost:3005/ingredientes/preco -> Rota para alteração do preço. Para alterar o preço é necessário passar alguns parametros no body: o nome do ingrediente(nome) e o novo preço(novoPreco)
 <br/>
 PATCH: http://localhost:3005/ingredientes/quantidade -> Rota para alteração da quantidade do ingrediente no estoque. Para alterar a quantidade é necessário passar alguns parametros no body, como o nome do ingrediente(nome) e o nova quantidade(novaQuantidade)
 <br/>
 PATCH: http://localhost:3005/ingredientes/ativo -> Rota para alteração da condição do produto no estoque. Para alterar a condição é necessário passar alguns parametros no body, como o nome do ingrediente e a nova condição(novaCondicao). No caso deste campo, ele só recebe true ou false.
+
+
 
 # INSTALAÇÃO
 
