@@ -56,8 +56,7 @@ PATCH: http://localhost:3005/ingredientes/ativo -> Rota para alteração da cond
 
 # INSTALAÇÃO
 
-Para instalação do projeto é necessário ter o node instalado no seu computador. Com o nome instalado rode o comando no terminal:
-*npm install*
+Para instalação do projeto é necessário ter o node instalado no seu computador. Com o node instalado rode o comando *npm install* no terminal:
 este comando fará com que seja instalado todos os pacotes necessários para rodar o projeto
 
 
